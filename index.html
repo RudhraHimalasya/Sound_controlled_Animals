@@ -1,0 +1,64 @@
+<html>
+    <head>
+<title>RECOGNIZING ANIMALS BY SOUND</title>
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- google fonts links -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+<!-- Cookie font(nts) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+<!-- great vibes(nts) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <body>
+    <div class="col-xs-12 header_div text-center">
+        <h1 id="heading1">Sound controlled Animals</h1>
+        <h3 id="heading2">Play different sound like meow, bark, roar </h3>
+    </div>
+  
+
+    <div id="div1"class="col-xs-12 header_div1 text-center">
+      
+        <br>
+        <button class="btn btn-info" onclick="startClassification();"> START </button>
+
+        <h3 id="heading3">I can hear -  </h3>
+<br>
+        <img id="img" src="welcome.JPG">
+        
+        <div id="last_name" class="copy_right_footer">
+    <h2> Developed by - Rudhra Himalasya</h2>       
+          </div>
+        
+        </div>
+        </body>
+    <script src="main.js"></script>
+</html>
+
+
+<!-- https://storage.googleapis.com/tm-model/C5DwVwNDb/model.json -->
+<!-- https://teachablemachine.withgoogle.com/models/C5DwVwNDb/ -->

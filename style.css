@@ -1,0 +1,39 @@
+#heading1{
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Patrick Hand', cursive;
+}
+#heading3 {
+    font-family: 'Pacifico', cursive;
+
+}
+#last_name{
+    text-shadow: 2px 2px pink;
+    font-family: 'Cookie', cursive;
+    background-color: pink;
+}
+#heading2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+#img {
+    border-radius: 20px;
+}
+#div1 {
+    background:linear-gradient(to left,#c5f9d7,#f7d486,#f27a7d);
+}
+
+.copy_right_footer{
+    background-color: #dec9e9;
+    text-align: center;
+    bottom :0;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    line-height: 3;
+}
+body{
+    background:linear-gradient(to left,#c5f9d7,#f7d486,#f27a7d);
+}
+.header_div {
+    background-color: #d9e5d6;
+}
